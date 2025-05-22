@@ -1,0 +1,12 @@
+print('*** Regresar una tupla de valores desde una funcion ***')
+
+
+# dDefinicion de la funcion
+def persona_masyuscula(nombre,apellido, edad):
+  print(f'Esta funcion regresa varios valores (tupla)')
+  return nombre.upper(), apellido.upper(), edad
+
+
+#Programa principal
+nombre, apellido,edad = persona_masyuscula('Juan', 'Pérez', 30)
+print(f'Resultado Persona : nombre ={nombre}, apellido={apellido}, edad={edad}')
